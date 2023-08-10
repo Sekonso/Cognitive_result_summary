@@ -15,21 +15,18 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
 
 Users should be able to:
-
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Sekonso/sekonsoresultsummary.github.io]
+- Live Site URL: [https://sekonso.github.io/sekonsoresultsummary.github.io/]
 
 ## My process
 
@@ -76,5 +73,5 @@ Users should be able to:
 ## Acknowledgments
 
 - Understanding some of the new concept by chatGPT.
-- I got the idea to create custom utility library from Brad Travesty (Youtube Channel)
+- Big help from SASS to GIT tutorial from Brad Travesty (Youtube Channel)
 - Got some help from HTML cheatsheet as well
