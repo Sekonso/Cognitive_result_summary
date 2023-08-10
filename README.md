@@ -50,6 +50,7 @@ Users should be able to:
 - Basic SASS
 - Fetch API
 - DOM Traversal
+- Basic git
 
 ### Continued development
 
@@ -58,6 +59,8 @@ Users should be able to:
 - Fetch, Promises, etc
 - SASS
 - DOM
+- Git & Github
+- CSS Framework
 
 ### Useful Resource
 
