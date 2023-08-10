@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styling/style.css" />
+    <link rel="stylesheet" href="./styling/utility.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Result -->
+      <div class="result">
+        <h2 class="text-light-lavender text-xl">Your Result</h2>
+        <div class="score-average">
+          <h1 class="text-5xl"></h1>
+          <p class="text-light-lavender text-sm">of 100</p>
+        </div>
+        <h1 class="text-2xl">Great</h1>
+        <p class="text-light-lavender text-sm">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <!-- Summary -->
+      <div class="summary">
+        <h2 class="text-xl text-gray-blue">Summary</h2>
+        <div class="components">
+          <!-- Reaction component -->
+          <div class="component component-red">
+            <div class="category"></div>
+            <p class="text-gray-blue">
+              <strong class="text-black score"></strong> / 100
+            </p>
+          </div>
+          <!-- Memory component -->
+          <div class="component component-yellow">
+            <div class="category"></div>
+            <p class="text-gray-blue">
+              <strong class="text-black score"></strong> / 100
+            </p>
+          </div>
+          <!-- Verbal component -->
+          <div class="component component-green">
+            <div class="category"></div>
+            <p class="text-gray-blue">
+              <strong class="text-black score"></strong> / 100
+            </p>
+          </div>
+          <!-- Visual component -->
+          <div class="component component-blue">
+            <div class="category"></div>
+            <p class="text-gray-blue">
+              <strong class="text-black score"></strong> / 100
+            </p>
+          </div>
+        </div>
+        <button class="btn btn-gray-blue">Continue</button>
+      </div>
+    </div>
+
+    <!-- Attribution -->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Adriansyah (Seconds)</a>.
+    </div>
+
+    <script src="./script/main.js"></script>
+  </body>
+</html>

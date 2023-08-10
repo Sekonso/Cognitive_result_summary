@@ -1,0 +1,123 @@
+// Variables
+$light-red: hsl(0, 100%, 67%);
+$orangey-yellow: hsl(39, 100%, 56%);
+$green-teal: hsl(166, 100%, 37%);
+$cobalt-blue: hsl(234, 85%, 45%);
+$light-slate-blue: hsl(252, 100%, 67%);
+$light-royal-blue: hsl(241, 81%, 54%);
+$violet-blue: hsla(256, 72%, 46%, 1);
+$persian-blue: hsla(241, 72%, 46%, 0);
+$white: hsl(0, 0%, 100%);
+$pale-blue: hsl(221, 100%, 96%);
+$light-lavender: hsl(241, 100%, 89%);
+$dark-gray-blue: hsl(224, 30%, 27%);
+
+// Components
+.component {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 0.7rem;
+
+  &:hover {
+    cursor: default;
+    box-shadow: 0px 0px 5px $dark-gray-blue;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+  }
+
+  &.component-red {
+    color: $light-red;
+    background-color: hsla(0, 100%, 67%, 10%);
+  }
+
+  &.component-yellow {
+    color: $orangey-yellow;
+    background-color: $orangey-yellow;
+    background-color: hsl(39, 100%, 56%, 10%);
+  }
+
+  &.component-green {
+    color: $green-teal;
+    background-color: $green-teal;
+    background-color: hsl(166, 100%, 37%, 10%);
+  }
+
+  &.component-blue {
+    color: $light-slate-blue;
+    background-color: $light-slate-blue;
+    background-color: hsla(252, 100%, 67%, 10%);
+  }
+}
+
+// Buttons
+.btn {
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+
+  &:hover {
+    background: linear-gradient($light-slate-blue, $light-royal-blue);
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+}
+
+.btn-gray-blue {
+  background-color: $dark-gray-blue;
+  color: white;
+}
+
+// Text Color
+.text-gray-blue {
+  color: $dark-gray-blue;
+}
+
+.text-light-lavender {
+  color: $light-lavender;
+}
+
+.text-black {
+  color: black;
+}
+
+// Text size
+.text-xs {
+  font-size: 0.75rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+}
+.text-base {
+  font-size: 1rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+}
+.text-2xl {
+  font-size: 1.5rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+}
+.text-5xl {
+  font-size: 3rem;
+}
+.text-6xl {
+  font-size: 4rem;
+}
