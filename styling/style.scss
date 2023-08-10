@@ -84,7 +84,7 @@ img {
 .summary {
   padding: 1.5rem;
 
-  > :nth-child(n) {
+  & > :nth-child(n) {
     margin-bottom: 1.5rem;
   }
 
