@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Sekonso/sekonsoresultsummary.github.io]
-- Live Site URL: [https://sekonso.github.io/sekonsoresultsummary.github.io/]
+- Solution URL: [Repository](https://github.com/Sekonso/result-summary)
+- Live Site URL: [Github pages](https://sekonso.github.io/result-summary/)
 
 ## My process
 
